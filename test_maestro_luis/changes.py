@@ -7,6 +7,40 @@ from openpyxl import load_workbook
 
 
 
+def is_green(cell):
+
+    rgb = cell.fill.start_color.rgb
+
+    # Convierte el código RGB de hexadecimal a decimal
+    red = int(rgb[2:4], 16)
+    green = int(rgb[4:6], 16)
+    blue = int(rgb[6:8], 16)
+
+    # Verifica si el código RGB corresponde a alguna tonalidad de verde
+    if red >= 0 and red <= 127 and green >= 128 and green <= 255 and blue >= 0 and blue <= 127:
+        return True
+    else:
+        return False
+
+
+def is_yellow(cell):
+
+    rgb = cell.fill.start_color.rgb
+
+    # Convierte el código RGB de hexadecimal a decimal
+    red = int(rgb[2:4], 16)
+    green = int(rgb[4:6], 16)
+    blue = int(rgb[6:8], 16)
+
+    # Verifica si el código RGB corresponde a alguna tonalidad de amarillo
+    if red >= 128 and red <= 255 and green >= 128 and green <= 255 and blue >= 0 and blue <= 127:
+        return True
+    else:
+        return False
+
+
+
+
 def get_sheet_changes(file_name):
     master_wb = load_workbook(file_name)            # we use the function load_workbook from openpyxl
     sheet = master_wb.worksheets[0]                 # select the first sheet
@@ -20,6 +54,7 @@ def get_sheet_changes(file_name):
         asset_color = cell.fill.bgColor.index
         if (asset_color != '00000000'):
             effective_sheet = sheet[i][2:]              # we are interested in other columns
+
             for j, col in enumerate(effective_sheet):
                 col_color = col.fill.bgColor.index
                 if (col_color != '00000000'):           # if cell has color then we save the changes
@@ -40,97 +75,128 @@ def set_sheet_changes(changes, file_name, utc):
     # Here we will do the changes in the line (row)
     for change in changes:
 
-        t_e = datetime.utcnow().replace(hour=utc, minute=0, second=0) - timedelta(seconds=1)
-        t_s = datetime.utcnow().replace(hour=utc, minute=0, second=0)
-
-        idx = df_master.loc[df_master["name"] == change["name"]].index[0] # saving the index where there are changes
+        if change["name"] in df_master["name"].unique():
 
 
-        # we get the amount of void rows
-        void_rows_counter = 0
-        while(df_master.isna().loc[idx + 1 + void_rows_counter, "name"]):
-            void_rows_counter += 1
+            t_e = datetime.utcnow().replace(hour=utc, minute=0, second=0) - timedelta(seconds=1)
+            t_s = datetime.utcnow().replace(hour=utc, minute=0, second=0)
+
+            idx = df_master.loc[df_master["name"] == change["name"]].index[0] # saving the index where there are changes
+
+
+            # we get the amount of void rows
+            void_rows_counter = 0
+            while(df_master.isna().loc[idx + 1 + void_rows_counter, "name"]):
+                void_rows_counter += 1
+
+
+            for col_change in change["changes"]:    # iterating in all changes of certain row
+
+                print("id:", int(df_master.loc[df_master["name"] == change["name"],"id"].values[0]), "asset:", change["name"], "Columna:", col_change["column"], "Valor:", col_change["value"], "n_filas:",void_rows_counter)
+
+                ct          =   "c_" if str(col_change["column"]) == "active" else "t_"
+                t_col_v     =   ct + col_change["column"] + "_v"
+                t_col_ds    =   ct + col_change["column"] + "_ds"
+                t_col_de    =   ct + col_change["column"] + "_de"
+
+                # If the previous value was different than the current one then we do the change (we compare in a string form)
+                if (str(df_master.loc[df_master["name"] == change["name"], col_change["column"]].values[0]) != str(col_change["value"])):
+
+                    # here we avoid the missing values of temporal tags in rows without spaces below
+                    if void_rows_counter == 0:
+                        df_master.loc[df_master["name"] == change["name"], t_col_v] = df_master.loc[df_master["name"] == change["name"], col_change["column"]].values[0]
+                    df_master.loc[df_master["name"] == change["name"], col_change["column"]] = col_change["value"]
+
+                    # if the asset doesnt have void rows bellow then we check the line
+                    if void_rows_counter == 0 :
+                        print("no tengo filas iniciales")
+
+                        if (df_master.loc[df_master["name"] == change["name"], t_col_v].values[0] != col_change["value"]):
+                            print(str(df_master.loc[df_master["name"] == change["name"], t_col_v].values[0]), str(col_change["value"]))
+                            void_row = pd.DataFrame([[np.nan for i in range(len(df_master.columns))]], columns=df_master.columns)
+                            void_row.loc[0, t_col_v] = col_change["value"] # here we fill the cell
+
+                            df_master = pd.concat([df_master.iloc[:idx+1+void_rows_counter], void_row, df_master.iloc[idx+1+void_rows_counter:]]).reset_index(drop=True)
+                            void_rows_counter += 1
+
+                            df_master.loc[idx + void_rows_counter - 1, t_col_de] = t_e.strftime("%Y%m%d %H:%M:%S")
+                            df_master.loc[idx + void_rows_counter, t_col_ds] = t_s.strftime("%Y%m%d %H:%M:%S")
+
+                            print("se agrega fila")
 
 
 
-        for col_change in change["changes"]:    # iterating in all changes of certain row
+                    # if there are initial rows below
+                    else :
+                        print("si tengo filas iniciales")
+                        print("valor antes:", df_master.loc[idx + void_rows_counter, t_col_v], "valor ahora:", col_change["value"])
 
-            print("id:", int(df_master.loc[df_master["name"] == change["name"],"id"].values[0]), "asset:", change["name"], "Columna:", col_change["column"], "Valor:", col_change["value"], "n_filas:",void_rows_counter)
+                        # we check the last added row and if the cell is void we search where we have to put the value
+                        if df_master.isna().loc[idx + void_rows_counter, t_col_v]:
+                            for i in range(void_rows_counter):
 
-            ct          =   "c_" if str(col_change["column"]) == "active" else "t_"
-            t_col_v     =   ct + col_change["column"] + "_v"
-            t_col_ds    =   ct + col_change["column"] + "_ds"
-            t_col_de    =   ct + col_change["column"] + "_de"
+                                if  (df_master.loc[idx + i, t_col_v] == col_change["value"]):
+                                    print("Estoy vacio y el anterior si es lo mismo")
+                                    break
 
-            # If the previous value was different than the current one then we do the change (we compare in a string form)
-            if (str(df_master.loc[df_master["name"] == change["name"], col_change["column"]].values[0]) != str(col_change["value"])):
+                                else: #(df_master.loc[idx + i, t_col_v] != col_change["value"]):
+                                    df_master.loc[idx + 1 + i, t_col_v] = col_change["value"]
 
-                # here we avoid the missing values of temporal tags in rows without spaces below
-                if void_rows_counter == 0:
-                    df_master.loc[df_master["name"] == change["name"], t_col_v] = df_master.loc[df_master["name"] == change["name"], col_change["column"]].values[0]
-                df_master.loc[df_master["name"] == change["name"], col_change["column"]] = col_change["value"]
+                                    # here we put the end and start time of changes
+                                    df_master.loc[idx + i, t_col_de] = t_e.strftime("%Y%m%d %H:%M:%S")
+                                    df_master.loc[idx + i + 1, t_col_ds] = t_s.strftime("%Y%m%d %H:%M:%S")
 
-                # if the asset doesnt have void rows bellow then we check the line
-                if void_rows_counter == 0 :
-                    print("no tengo filas iniciales")
-
-                    if (df_master.loc[df_master["name"] == change["name"], t_col_v].values[0] != col_change["value"]):
-                        print(str(df_master.loc[df_master["name"] == change["name"], t_col_v].values[0]), str(col_change["value"]))
-                        void_row = pd.DataFrame([[np.nan for i in range(len(df_master.columns))]], columns=df_master.columns)
-                        void_row.loc[0, t_col_v] = col_change["value"] # here we fill the cell
-
-                        df_master = pd.concat([df_master.iloc[:idx+1+void_rows_counter], void_row, df_master.iloc[idx+1+void_rows_counter:]]).reset_index(drop=True)
-                        void_rows_counter += 1
-
-                        df_master.loc[idx + void_rows_counter - 1, t_col_de] = t_e.strftime("%Y%m%d %H:%M:%S")
-                        df_master.loc[idx + void_rows_counter, t_col_ds] = t_s.strftime("%Y%m%d %H:%M:%S")
-
-                        print("se agrega fila")
+                                    print("Estoy vacio y el anterior no es lo mismo")
+                                    print(str(df_master.loc[idx + i, t_col_v]), str(col_change["value"]))
+                                    break
 
 
+                        # if the last value is the same that the change then we dont do anything
+                        elif str(df_master.loc[idx + void_rows_counter, t_col_v]) == str(col_change["value"]) :
+                            pass
 
-                # if there are initial rows below
-                else :
-                    print("si tengo filas iniciales")
-                    print("valor antes:", df_master.loc[idx + void_rows_counter, t_col_v], "valor ahora:", col_change["value"])
+                        # if the last cell is filled then we add a void row and we put the value
+                        else:
+                            void_row = pd.DataFrame([[np.nan for i in range(len(df_master.columns))]], columns=df_master.columns)
+                            void_row.loc[0, t_col_v] = col_change["value"] # here we fill the cell
 
-                    # we check the last added row and if the cell is void we search where we have to put the value
-                    if df_master.isna().loc[idx + void_rows_counter, t_col_v]:
-                        for i in range(void_rows_counter):
+                            df_master = pd.concat([df_master.iloc[:idx+void_rows_counter+1], void_row, df_master.iloc[idx+void_rows_counter+1:]]).reset_index(drop=True)
+                            void_rows_counter += 1
+                            # here we put the end and start time of changes
+                            df_master.loc[idx + void_rows_counter - 1, t_col_de] = t_e.strftime("%Y%m%d %H:%M:%S")
+                            df_master.loc[idx + void_rows_counter, t_col_ds] = t_s.strftime("%Y%m%d %H:%M:%S")
 
-                            if  (df_master.loc[idx + i, t_col_v] == col_change["value"]):
-                                print("Estoy vacio y el anterior si es lo mismo")
-                                break
-
-                            else: #(df_master.loc[idx + i, t_col_v] != col_change["value"]):
-                                df_master.loc[idx + 1 + i, t_col_v] = col_change["value"]
-
-                                # here we put the end and start time of changes
-                                df_master.loc[idx + i, t_col_de] = t_e.strftime("%Y%m%d %H:%M:%S")
-                                df_master.loc[idx + i + 1, t_col_ds] = t_s.strftime("%Y%m%d %H:%M:%S")
-
-                                print("Estoy vacio y el anterior no es lo mismo")
-                                print(str(df_master.loc[idx + i, t_col_v]), str(col_change["value"]))
-                                break
+                            print("se agrega fila")
 
 
-                    # if the last value is the same that the change then we dont do anything
-                    elif str(df_master.loc[idx + void_rows_counter, t_col_v]) == str(col_change["value"]) :
-                        pass
+        # if the asset is not in the dataframe its coz it is a new asset
+        else:
 
-                    # if the last cell is filled then we add a void row and we put the value
-                    else:
-                        void_row = pd.DataFrame([[np.nan for i in range(len(df_master.columns))]], columns=df_master.columns)
-                        void_row.loc[0, t_col_v] = col_change["value"] # here we fill the cell
+            # we set an incremental asset id
+            new_id = int(df_master["id"].max() + 1)
+            # here we create a dictionary with the changes in a dataframe format
+            dic_changes = {"id": [new_id], "name": [change["name"]]}
+            # going through the changes
+            for col_change in change["changes"]:
 
-                        df_master = pd.concat([df_master.iloc[:idx+void_rows_counter+1], void_row, df_master.iloc[idx+void_rows_counter+1:]]).reset_index(drop=True)
-                        #print(df_master.iloc[:idx+void_rows_counter, t_col_v].tail(1))
-                        void_rows_counter += 1
-                        # here we put the end and start time of changes
-                        df_master.loc[idx + void_rows_counter - 1, t_col_de] = t_e.strftime("%Y%m%d %H:%M:%S")
-                        df_master.loc[idx + void_rows_counter, t_col_ds] = t_s.strftime("%Y%m%d %H:%M:%S")
+                ct          =   "c_" if str(col_change["column"]) == "active" else "t_"
+                t_col_v     =   ct + col_change["column"] + "_v"
 
-                        print("se agrega fila")
+                dic_changes[col_change["column"]]   =   [col_change["value"]]
+
+                if t_col_v in df_master.columns:
+                    dic_changes[t_col_v]    =   [col_change["value"]]
+
+            # creating a data frame with the dictionary
+            new_asset = pd.DataFrame(dic_changes)
+            # we add the new asset to the dataframe
+            df_master = pd.concat([df_master, new_asset]).reset_index(drop=True)
+
+
+            print("se agrega nuevo asset")
+
+
+
 
 # ------ WRITE AND SAVE THE NEW FILE ------ #
 
