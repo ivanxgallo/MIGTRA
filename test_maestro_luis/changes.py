@@ -80,11 +80,13 @@ def set_sheet_changes(changes, file_name, utc):
 
             idx = df_master.loc[df_master["name"] == change["name"]].index[0] # saving the index where there are changes
 
-
+            print("id:", df_master.loc[df_master["name"] == change["name"], "id"].values[0])
             # we get the amount of void rows
+            print("tamaño df:", len(df_master), "indice:", idx)
             void_rows_counter = 0
-            while(df_master.isna().loc[idx + 1 + void_rows_counter, "name"]):
-                void_rows_counter += 1
+            if (idx + 1 != len(df_master)):
+                while (df_master.isna().loc[idx + 1 + void_rows_counter, "name"]):
+                    void_rows_counter += 1
 
 
             # iterating in all changes of certain row
@@ -104,7 +106,7 @@ def set_sheet_changes(changes, file_name, utc):
                 # creating variables to do a comparison
                 comparison_var_df           =       df_master.loc[df_master["name"] == change["name"], col_change["column"]].values[0]
                 comparison_var_change       =       col_change["value"]
-                if type(comparison_var_df) == str:
+                if type(comparison_var_df)  ==  str:
                     comparison_var_change   =       str(col_change["value"]).strip()
                     comparison_var_df       =       comparison_var_df.strip()
                 else:
@@ -127,7 +129,6 @@ def set_sheet_changes(changes, file_name, utc):
                     if void_rows_counter == 0 :
                         print("no tengo filas iniciales")
                         # if the temporal value is different than the change then
-                        #if (df_master.loc[df_master["name"] == change["name"], t_col_v].values[0] != col_change["value"]):
                         print(str(df_master.loc[df_master["name"] == change["name"], t_col_v].values[0]), str(col_change["value"]))
 
                         # if the change is not "active"
@@ -138,6 +139,7 @@ def set_sheet_changes(changes, file_name, utc):
                             # then we concat with the new line
                             df_master = pd.concat([df_master.iloc[:idx+1+void_rows_counter], void_row, df_master.iloc[idx+1+void_rows_counter:]]).reset_index(drop=True)
                             void_rows_counter += 1
+                            print("se agrega fila")
 
 
                         # if the change is "active"
@@ -161,10 +163,7 @@ def set_sheet_changes(changes, file_name, utc):
                                     void_rows_counter += 1
                                     # starting an active
                                     df_master.loc[idx + void_rows_counter, t_col_ds] = t_s.strftime("%Y%m%d %H:%M:%S")
-
-                        print("se agrega fila")
-
-
+                                    print("se agrega fila")
 
 
                     # if there are initial rows below
@@ -240,67 +239,30 @@ def set_sheet_changes(changes, file_name, utc):
                                 df_master.loc[idx + void_rows_counter, t_col_ds] = t_s.strftime("%Y%m%d %H:%M:%S")
                                 print("se agrega fila")
 
-                    if (df_master.loc[df_master["name"] == change["name"], t_col_v].values[0] != col_change["value"]):
-                        print(str(df_master.loc[df_master["name"] == change["name"], t_col_v].values[0]), str(col_change["value"]))
-                        void_row = pd.DataFrame([[np.nan for i in range(len(df_master.columns))]], columns=df_master.columns)
-                        void_row.loc[0, t_col_v] = col_change["value"] # here we fill the cell
 
 
-                        # if the last cell is filled then we add a void row and we put the value
-                        else:
-                            # here we fill the cell
-                            void_row.loc[0, t_col_v] = col_change["value"]
-                            # we concat the new line
-                            df_master = pd.concat([df_master.iloc[:idx+void_rows_counter+1], void_row, df_master.iloc[idx+void_rows_counter+1:]]).reset_index(drop=True)
-                            void_rows_counter += 1
-                            # here we put the end and start time of changes
-                            df_master.loc[idx + void_rows_counter - 1, t_col_de] = t_e.strftime("%Y%m%d %H:%M:%S")
-                            df_master.loc[idx + void_rows_counter, t_col_ds] = t_s.strftime("%Y%m%d %H:%M:%S")
+        else:
+            # we create the new id
+            new_id = int(df_master["id"].max() + 1)
+            # creating the the new row
+            void_row = pd.DataFrame([[np.nan for i in range(len(df_master.columns))]], columns=df_master.columns)
+            # setting the id
+            void_row.loc[0, "id"]   =   new_id
+            void_row.loc[0, "name"] =   change["name"]
+            # passing for the changes
+            for col_change in change["changes"]:
+                ct          =   "c_" if str(col_change["column"]) == "active" else "t_"
+                t_col_v     =   ct + col_change["column"] + "_v"
+                void_row.loc[0, col_change["column"]] = col_change["value"]
 
+                # we check if the atribute has a temporal tag
+                if t_col_v in df_master.columns:
+                    void_row.loc[0, t_col_v] = col_change["value"]
+            # adding the new line
+            df_master = pd.concat([df_master, void_row]).reset_index(drop=True)
 
+            print("se agrega asset,", "id:", new_id, "asset:", change["name"])
 
-                # if there are initial rows below
-                else :
-                    print("si tengo filas iniciales")
-                    print("valor antes:", df_master.loc[idx + void_rows_counter, t_col_v], "valor ahora:", col_change["value"])
-
-                    # we check the last added row and if the cell is void we search where we have to put the value
-                    if df_master.isna().loc[idx + void_rows_counter, t_col_v]:
-                        for i in range(void_rows_counter):
-
-                            if  (df_master.loc[idx + i, t_col_v] == col_change["value"]):
-                                print("Estoy vacio y el anterior si es lo mismo")
-                                break
-
-                            else: #(df_master.loc[idx + i, t_col_v] != col_change["value"]):
-                                df_master.loc[idx + 1 + i, t_col_v] = col_change["value"]
-
-                                # here we put the end and start time of changes
-                                df_master.loc[idx + i, t_col_de] = t_e.strftime("%Y%m%d %H:%M:%S")
-                                df_master.loc[idx + i + 1, t_col_ds] = t_s.strftime("%Y%m%d %H:%M:%S")
-
-                                print("Estoy vacio y el anterior no es lo mismo")
-                                print(str(df_master.loc[idx + i, t_col_v]), str(col_change["value"]))
-                                break
-
-
-                    # if the last value is the same that the change then we dont do anything
-                    elif str(df_master.loc[idx + void_rows_counter, t_col_v]) == str(col_change["value"]) :
-                        pass
-
-                    # if the last cell is filled then we add a void row and we put the value
-                    else:
-                        void_row = pd.DataFrame([[np.nan for i in range(len(df_master.columns))]], columns=df_master.columns)
-                        void_row.loc[0, t_col_v] = col_change["value"] # here we fill the cell
-
-                        df_master = pd.concat([df_master.iloc[:idx+void_rows_counter+1], void_row, df_master.iloc[idx+void_rows_counter+1:]]).reset_index(drop=True)
-                        #print(df_master.iloc[:idx+void_rows_counter, t_col_v].tail(1))
-                        void_rows_counter += 1
-                        # here we put the end and start time of changes
-                        df_master.loc[idx + void_rows_counter - 1, t_col_de] = t_e.strftime("%Y%m%d %H:%M:%S")
-                        df_master.loc[idx + void_rows_counter, t_col_ds] = t_s.strftime("%Y%m%d %H:%M:%S")
-
-                        print("se agrega fila")
 
 # ------ WRITE AND SAVE THE NEW FILE ------ #
 
@@ -326,8 +288,10 @@ def set_sheet_changes(changes, file_name, utc):
     sheet_names_ = writer.book.sheetnames
 
     # here we are putting the new sheet at the beginning of the excel file
-    _len = len(sheet_names_)
-    writer.book._sheets = [writer.book[sheet_names_[-1]]] + [writer.book[sheet_names_[i]] for i in range(0, _len-1)]
+    writer.book._sheets = [writer.book[new_sheet_name]] + [writer.book[name] for name in sheet_names_ if name != new_sheet_name]
+    #_len = len(sheet_names_)
+    # sheet_names_[-1]
+    # [writer.book[sheet_names_[i]] for i in range(0, _len-1)]
 
     # Finaly we save the dataframe
     writer.close()
