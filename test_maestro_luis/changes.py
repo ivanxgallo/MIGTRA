@@ -176,22 +176,22 @@ def set_sheet_changes(changes, file_name, utc):
                             # if the change is not "active"
                             if col_change["column"] != "active":
                                 # we search for the first void cell
-                                for i in range(void_rows_counter):
+                                for i in range(1, void_rows_counter + 1):
 
-                                    if  (df_master.loc[idx + i, t_col_v] == col_change["value"]):
-                                        print("Estoy vacio y el anterior si es lo mismo")
-                                        break
+                                    if df_master.isna().loc[idx + i, t_col_v]:
 
-                                    else: #(df_master.loc[idx + i, t_col_v] != col_change["value"]):
-                                        df_master.loc[idx + 1 + i, t_col_v] = col_change["value"]
+                                        if  (df_master.loc[idx + i - 1, t_col_v] == col_change["value"]):
+                                            print("Estoy vacio y el anterior si es lo mismo")
+                                            break
 
-                                        # here we put the end and start time of changes
-                                        df_master.loc[idx + i, t_col_de] = t_e.strftime("%Y%m%d %H:%M:%S")
-                                        df_master.loc[idx + i + 1, t_col_ds] = t_s.strftime("%Y%m%d %H:%M:%S")
+                                        else:
+                                            df_master.loc[idx + i, t_col_v] = col_change["value"]
 
-                                        print("Estoy vacio y el anterior no es lo mismo")
-                                        print(str(df_master.loc[idx + i, t_col_v]), str(col_change["value"]))
-                                        break
+                                            # here we put the end and start time of changes
+                                            df_master.loc[idx + i - 1, t_col_de]    =   t_e.strftime("%Y%m%d %H:%M:%S")
+                                            df_master.loc[idx + i, t_col_ds]        =   t_s.strftime("%Y%m%d %H:%M:%S")
+
+                                            break
 
                             # if the change is in the feature "active"
                             else:
@@ -238,6 +238,18 @@ def set_sheet_changes(changes, file_name, utc):
                                 # we start the active position
                                 df_master.loc[idx + void_rows_counter, t_col_ds] = t_s.strftime("%Y%m%d %H:%M:%S")
                                 print("se agrega fila")
+
+
+                        else:
+                            # we put the changes in a new line
+                            void_row.loc[0, t_col_v]    =   col_change["value"]
+                            void_row.loc[0, t_col_ds]   =   t_s.strftime("%Y%m%d %H:%M:%S")
+                            # we fill the last row
+                            df_master.loc[idx + void_rows_counter, t_col_de]    =   t_e.strftime("%Y%m%d %H:%M:%S")
+                            # we concat the new line
+                            df_master = pd.concat([df_master.iloc[:idx+1+void_rows_counter], void_row, df_master.iloc[idx+1+void_rows_counter:]]).reset_index(drop=True)
+                            void_rows_counter += 1
+                            print("se agrega fila")
 
 
 
@@ -289,9 +301,6 @@ def set_sheet_changes(changes, file_name, utc):
 
     # here we are putting the new sheet at the beginning of the excel file
     writer.book._sheets = [writer.book[new_sheet_name]] + [writer.book[name] for name in sheet_names_ if name != new_sheet_name]
-    #_len = len(sheet_names_)
-    # sheet_names_[-1]
-    # [writer.book[sheet_names_[i]] for i in range(0, _len-1)]
 
     # Finaly we save the dataframe
     writer.close()
