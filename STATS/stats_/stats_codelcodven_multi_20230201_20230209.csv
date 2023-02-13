@@ -1,0 +1,478 @@
+Day;Asset;Provider;Flota;Num;%Anomaly;SumDT;SumDM;AvgDTM;AvgDTS;DT35;DT65;DT305;DT605;DT3605;LDD1000;LDD2000;LDD2500;LDD3000;LDD5000;A;B;C;D;E
+20230201;FZWC44;movilmaster;Nueva Bernal Fernandez;2676;1.3;86088;1125039;20;918;87.1;7.9;3.8;0.1;0.2;30.8;26.1;14.6;8.5;6.0;;B2;;;
+20230202;FZWC44;movilmaster;Nueva Bernal Fernandez;295;0.0;68020;59189;22;2121;72.2;21.3;2.3;2.3;1.3;0.0;0.0;0.0;0.0;0.0;;;;;
+20230203;FZWC44;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;FZWC44;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;FZWC44;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;FZWC44;movilmaster;Nueva Bernal Fernandez;49;0.0;326181;5637;28;25007;44.8;30.6;12.2;0.0;10.2;0.0;0.0;0.0;0.0;0.0;;;;;
+20230207;FZWC44;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;FZWC44;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;FZWC44;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;GWXC93;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;GWXC93;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;GWXC93;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;GWXC93;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;GWXC93;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;GWXC93;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;GWXC93;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;GWXC93;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;GWXC93;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;GXCF90;movilmaster;Nueva Bernal Fernandez;1002;0.0;32146;291579;17;299;91.2;5.4;2.0;0.5;0.4;0.0;0.0;0.0;0.0;0.0;;;;;
+20230202;GXCF90;movilmaster;Nueva Bernal Fernandez;1032;0.0;89992;297018;17;1312;89.5;6.0;3.0;0.6;0.5;0.0;0.0;0.0;0.0;0.0;;;;;
+20230203;GXCF90;movilmaster;Nueva Bernal Fernandez;1063;0.0;83284;304424;17;1164;90.0;6.7;1.8;0.6;0.4;0.0;0.0;0.0;0.0;0.0;;;;;
+20230204;GXCF90;movilmaster;Nueva Bernal Fernandez;119;0.0;74962;22257;26;2423;54.6;24.3;11.7;3.3;3.3;0.0;0.0;0.0;0.0;0.0;;;;;
+20230205;GXCF90;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;GXCF90;movilmaster;Nueva Bernal Fernandez;1683;0.0;196122;487380;18;2615;89.7;7.3;1.4;0.7;0.5;0.0;0.0;0.0;0.0;0.0;;;;;
+20230207;GXCF90;movilmaster;Nueva Bernal Fernandez;1169;0.0;79470;338498;18;1092;90.5;5.9;2.4;0.2;0.5;0.0;0.0;0.0;0.0;0.0;;;;;
+20230208;GXCF90;movilmaster;Nueva Bernal Fernandez;937;0.0;88331;268780;18;1752;89.1;7.5;2.0;0.3;0.7;0.0;0.0;0.0;0.0;0.0;;;;;
+20230209;GXCF90;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;GXXW29;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;GXXW29;movilmaster;Nueva Bernal Fernandez;4;0.0;708;41;0;236;25.0;25.0;0.0;0.0;25.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230203;GXXW29;movilmaster;Nueva Bernal Fernandez;2;0.0;90828;5;0;45414;0.0;0.0;0.0;0.0;50.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230204;GXXW29;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;GXXW29;movilmaster;Nueva Bernal Fernandez;468;0.0;166474;17620;4;16429;98.7;0.2;0.6;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230206;GXXW29;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;GXXW29;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;GXXW29;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;GXXW29;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;GXXW30;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;GXXW30;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;GXXW30;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;GXXW30;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;GXXW30;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;GXXW30;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;GXXW30;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;GXXW30;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;GXXW30;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;GZYC53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;GZYC53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;GZYC53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;GZYC53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;GZYC53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;GZYC53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;GZYC53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;GZYC53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;GZYC53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;HCLJ57;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;HCLJ57;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;HCLJ57;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;HCLJ57;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;HCLJ57;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;HCLJ57;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;HCLJ57;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;HCLJ57;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;HCLJ57;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;HJRG17;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;HJRG17;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;HJRG17;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;HJRG17;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;HJRG17;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;HJRG17;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;HJRG17;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;HJRG17;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;HJRG17;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;HKDK67;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;HKDK67;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;HKDK67;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;HKDK67;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;HKDK67;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;HKDK67;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;HKDK67;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;HKDK67;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;HKDK67;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;HLHC20;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;HLHC20;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;HLHC20;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;HLHC20;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;HLHC20;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;HLHC20;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;HLHC20;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;HLHC20;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;HLHC20;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;HLZB91;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;HLZB91;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;HLZB91;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;HLZB91;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;HLZB91;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;HLZB91;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;HLZB91;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;HLZB91;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;HLZB91;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;HPBY53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;HPBY53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;HPBY53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;HPBY53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;HPBY53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;HPBY53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;HPBY53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;HPBY53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;HPBY53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;HTVW64;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;HTVW64;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;HTVW64;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;HTVW64;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;HTVW64;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;HTVW64;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;HTVW64;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;HTVW64;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;HTVW64;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;HYZC60;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;HYZC60;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;HYZC60;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;HYZC60;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;HYZC60;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;HYZC60;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;HYZC60;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;HYZC60;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;HYZC60;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;JCDJ86;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;JCDJ86;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;JCDJ86;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;JCDJ86;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;JCDJ86;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;JCDJ86;movilmaster;Nueva Bernal Fernandez;6;0.0;1957;866;0;391;0.0;16.6;33.3;0.0;33.3;0.0;0.0;0.0;0.0;0.0;;;;;
+20230207;JCDJ86;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;JCDJ86;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;JCDJ86;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;JTPY49;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;JTPY49;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;JTPY49;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;JTPY49;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;JTPY49;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;JTPY49;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;JTPY49;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;JTPY49;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;JTPY49;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;JXZX75;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;JXZX75;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;JXZX75;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;JXZX75;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;JXZX75;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;JXZX75;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;JXZX75;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;JXZX75;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;JXZX75;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;KVDK76;movilmaster;Nueva Bernal Fernandez;964;0.0;38172;289035;18;564;89.5;7.5;1.5;0.7;0.4;1.9;1.9;1.9;1.9;1.9;;;;;
+20230202;KVDK76;movilmaster;Nueva Bernal Fernandez;437;0.0;86790;127085;19;1884;85.5;10.2;2.0;0.0;1.1;2.6;1.7;0.0;0.0;0.0;;;;;
+20230203;KVDK76;movilmaster;Nueva Bernal Fernandez;1121;0.0;84787;331239;18;1835;89.2;7.4;1.9;0.5;0.8;1.4;1.4;1.4;1.4;0.0;;;;;
+20230204;KVDK76;movilmaster;Nueva Bernal Fernandez;103;0.0;65208;22021;23;3109;61.1;25.2;4.8;3.8;2.9;0.0;0.0;0.0;0.0;0.0;;;;;
+20230205;KVDK76;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;KVDK76;movilmaster;Nueva Bernal Fernandez;961;0.0;179586;281587;18;4202;86.4;10.5;1.9;0.5;0.4;1.7;1.7;1.7;1.7;0.0;;;;;
+20230207;KVDK76;movilmaster;Nueva Bernal Fernandez;1835;0.0;105348;548183;17;1251;91.4;6.1;1.4;0.2;0.5;0.8;0.8;0.8;0.8;0.0;;;;;
+20230208;KVDK76;movilmaster;Nueva Bernal Fernandez;919;0.0;83916;266160;19;545;85.5;10.3;2.0;0.8;0.8;2.4;2.4;2.4;2.4;2.4;;;;;
+20230209;KVDK76;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;LWFW14;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;LWFW14;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;LWFW14;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;LWFW14;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;LWFW14;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;LWFW14;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;LWFW14;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;LWFW14;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;LWFW14;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;LXCJ86;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;LXCJ86;movilmaster;Nueva Bernal Fernandez;584;0.0;30678;263766;30;253;56.1;38.1;3.5;1.1;0.5;55.2;0.0;0.0;0.0;0.0;;;;;
+20230203;LXCJ86;movilmaster;Nueva Bernal Fernandez;640;0.0;84030;259180;29;1004;55.1;37.0;4.8;2.0;0.6;52.9;0.0;0.0;0.0;0.0;;;;;
+20230204;LXCJ86;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;LXCJ86;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;LXCJ86;movilmaster;Nueva Bernal Fernandez;655;0.0;249477;290500;29;3878;55.7;35.8;5.4;1.9;0.7;53.4;0.0;0.0;0.0;0.0;;;;;
+20230207;LXCJ86;movilmaster;Nueva Bernal Fernandez;598;0.0;91683;292149;32;1894;53.0;40.9;4.1;0.8;0.5;57.8;0.0;0.0;0.0;0.0;;;;;
+20230208;LXCJ86;movilmaster;Nueva Bernal Fernandez;1009;0.0;94887;541694;32;1365;52.0;43.6;2.6;0.9;0.4;58.3;0.0;0.0;0.0;0.0;;;;;
+20230209;LXCJ86;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;LXCL81;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;LXCL81;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;LXCL81;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;LXCL81;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;LXCL81;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;LXCL81;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;LXCL81;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;LXCL81;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;LXCL81;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;LXCL82;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;LXCL82;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;LXCL82;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;LXCL82;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;LXCL82;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;LXCL82;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;LXCL82;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;LXCL82;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;LXCL82;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;LXCL83;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;LXCL83;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;LXCL83;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;LXCL83;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;LXCL83;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;LXCL83;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;LXCL83;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;LXCL83;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;LXCL83;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;LXCL84;movilmaster;Nueva Bernal Fernandez;1442;0.1;78491;296192;12;862;94.2;2.1;2.0;0.6;0.5;0.0;0.0;0.0;0.0;0.0;;;;;
+20230202;LXCL84;movilmaster;Nueva Bernal Fernandez;1481;0.0;91700;271332;13;1144;95.0;2.2;1.4;0.8;0.2;0.0;0.0;0.0;0.0;0.0;;;;;
+20230203;LXCL84;movilmaster;Nueva Bernal Fernandez;28;0.0;57054;676;22;3782;39.2;14.2;21.4;3.5;3.5;0.0;0.0;0.0;0.0;0.0;;;;;
+20230204;LXCL84;movilmaster;Nueva Bernal Fernandez;154;0.0;88806;12401;15;2617;72.0;13.6;6.4;4.5;1.2;0.0;0.0;0.0;0.0;0.0;;;;;
+20230205;LXCL84;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;LXCL84;movilmaster;Nueva Bernal Fernandez;1309;0.0;185126;260370;12;2855;94.6;2.8;1.0;0.9;0.3;0.0;0.0;0.0;0.0;0.0;;;;;
+20230207;LXCL84;movilmaster;Nueva Bernal Fernandez;1338;0.0;87392;271249;12;1197;95.5;1.9;1.4;0.5;0.2;0.0;0.0;0.0;0.0;0.0;;;;;
+20230208;LXCL84;movilmaster;Nueva Bernal Fernandez;2417;0.0;102609;505791;12;667;95.5;1.4;2.1;0.2;0.3;0.0;0.0;0.0;0.0;0.0;;;;;
+20230209;LXCL84;movilmaster;Nueva Bernal Fernandez;288;0.0;4902;50350;13;184;97.5;1.0;1.0;0.3;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230201;LXCR73;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;LXCR73;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;LXCR73;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;LXCR73;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;LXCR73;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;LXCR73;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;LXCR73;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;LXCR73;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;LXCR73;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;LXFF72;movilmaster;Nueva Bernal Fernandez;12;0.0;69364;66;0;6305;50.0;8.3;16.6;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230202;LXFF72;movilmaster;Nueva Bernal Fernandez;666;0.0;102275;251099;29;1135;56.0;36.9;3.7;2.1;0.7;52.2;0.0;0.0;0.0;0.0;;;;;
+20230203;LXFF72;movilmaster;Nueva Bernal Fernandez;1100;0.0;86733;471351;30;633;56.2;38.9;3.3;0.6;0.7;51.1;1.1;1.1;0.0;0.0;;;;;
+20230204;LXFF72;movilmaster;Nueva Bernal Fernandez;108;0.0;80213;36224;40;4468;37.9;45.3;8.3;2.7;1.8;24.5;0.0;0.0;0.0;0.0;;;;;
+20230205;LXFF72;movilmaster;Nueva Bernal Fernandez;68;0.0;70640;12023;32;3281;44.1;32.3;8.8;4.4;5.8;9.8;0.0;0.0;0.0;0.0;;;;;
+20230206;LXFF72;movilmaster;Nueva Bernal Fernandez;648;0.0;106966;275255;37;1281;42.9;49.2;5.7;1.0;0.7;43.8;0.7;0.0;0.0;0.0;;;;;
+20230207;LXFF72;movilmaster;Nueva Bernal Fernandez;64;0.0;64066;11879;33;2388;37.5;28.1;10.9;9.3;9.3;0.0;0.0;0.0;0.0;0.0;;;;;
+20230208;LXFF72;movilmaster;Nueva Bernal Fernandez;602;0.0;94019;260676;34;1350;49.1;44.1;5.1;0.9;0.3;45.0;0.0;0.0;0.0;0.0;;;;;
+20230209;LXFF72;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;LXGT37;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;LXGT37;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;LXGT37;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;LXGT37;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;LXGT37;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;LXGT37;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;LXGT37;movilmaster;Nueva Bernal Fernandez;8;0.0;555;169;0;87;37.5;25.0;25.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230208;LXGT37;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;LXGT37;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;PHHX31;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;PHHX31;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;PHHX31;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;PHHX31;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;PHHX31;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;PHHX31;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;PHHX31;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;PHHX31;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;PHHX31;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;PHJW14;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;PHJW14;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;PHJW14;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;PHJW14;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;PHJW14;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;PHJW14;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;PHJW14;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;PHJW14;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;PHJW14;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;PHJZ41;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;PHJZ41;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;PHJZ41;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;PHJZ41;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;PHJZ41;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;PHJZ41;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;PHJZ41;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;PHJZ41;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;PHJZ41;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;PHRV21;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;PHRV21;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;PHRV21;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;PHRV21;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;PHRV21;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;PHRV21;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;PHRV21;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;PHRV21;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;PHRV21;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;PHRV22;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;PHRV22;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;PHRV22;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;PHRV22;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;PHRV22;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;PHRV22;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;PHRV22;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;PHRV22;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;PHRV22;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;PHRZ53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;PHRZ53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;PHRZ53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;PHRZ53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;PHRZ53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;PHRZ53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;PHRZ53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;PHRZ53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;PHRZ53;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;PHSK83;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;PHSK83;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;PHSK83;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;PHSK83;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;PHSK83;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;PHSK83;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;PHSK83;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;PHSK83;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;PHSK83;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;PJJT12;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;PJJT12;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;PJJT12;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;PJJT12;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;PJJT12;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;PJJT12;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;PJJT12;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;PJJT12;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;PJJT12;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;PJJV42;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;PJJV42;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;PJJV42;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;PJJV42;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;PJJV42;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;PJJV42;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;PJJV42;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;PJJV42;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;PJJV42;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;PKTX93;movilmaster;Nueva Bernal Fernandez;430;0.0;31623;274873;44;312;18.3;71.6;6.5;2.0;1.1;68.8;0.0;0.0;0.0;0.0;;;;;
+20230202;PKTX93;movilmaster;Nueva Bernal Fernandez;439;0.0;88717;273175;40;1463;21.8;67.8;7.0;0.9;1.8;72.6;0.0;0.0;0.0;0.0;;;;;
+20230203;PKTX93;movilmaster;Nueva Bernal Fernandez;433;0.0;84688;273667;42;1304;18.4;72.0;4.8;1.8;2.5;68.9;0.0;0.0;0.0;0.0;;;;;
+20230204;PKTX93;movilmaster;Nueva Bernal Fernandez;45;0.0;62867;3120;44;2471;24.4;31.1;26.6;4.4;11.1;43.6;0.0;0.0;0.0;0.0;;;;;
+20230205;PKTX93;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;PKTX93;movilmaster;Nueva Bernal Fernandez;912;0.0;208749;467106;33;2194;41.7;51.5;4.2;1.2;1.0;59.1;0.0;0.0;0.0;0.0;;;;;
+20230207;PKTX93;movilmaster;Nueva Bernal Fernandez;522;0.0;85961;329958;39;1231;24.5;65.9;5.7;1.3;2.1;67.6;0.0;0.0;0.0;0.0;;;;;
+20230208;PKTX93;movilmaster;Nueva Bernal Fernandez;545;0.0;82848;263649;35;1146;41.4;50.8;4.9;0.7;1.6;51.5;0.0;0.0;0.0;0.0;;;;;
+20230209;PKTX93;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;PPPX98;movilmaster;Nueva Bernal Fernandez;6;0.0;3603;111;0;720;0.0;0.0;16.6;33.3;33.3;0.0;0.0;0.0;0.0;0.0;;;;;
+20230202;PPPX98;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;PPPX98;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;PPPX98;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;PPPX98;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;PPPX98;movilmaster;Nueva Bernal Fernandez;2;0.0;446827;12;0;223413;0.0;0.0;0.0;0.0;50.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230207;PPPX98;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;PPPX98;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;PPPX98;movilmaster;Nueva Bernal Fernandez;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;HGBC33;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230202;HGBC33;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;HGBC33;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;HGBC33;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;HGBC33;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;HGBC33;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;HGBC33;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;HGBC33;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;HGBC33;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;HGBC35;gpschile;Transportes Ilzauspe;7;0;78;0;0;15;57.1;14.2;0.0;0.0;0.0;0;0;0;0;0;;;;;
+20230202;HGBC35;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230203;HGBC35;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230204;HGBC35;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;HGBC35;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;HGBC35;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;HGBC35;gpschile;Transportes Ilzauspe;4;0;499302;0;0;124825;50.0;0.0;25.0;0.0;0.0;0;0;0;0;0;;;;;
+20230208;HGBC35;gpschile;Transportes Ilzauspe;1;0;86402;0;0;86402;0.0;0.0;0.0;0.0;0.0;0;0;0;0;0;;;;;
+20230209;HGBC35;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;HGBC32;gpschile;Transportes Ilzauspe;927;0.0;86320;688002;59;185;5.5;91.2;2.1;0.2;0.6;81.1;0.3;0.0;0.0;0.0;;;;;
+20230202;HGBC32;gpschile;Transportes Ilzauspe;915;0.0;86438;836164;59;339;3.7;93.3;1.9;0.1;0.7;81.6;0.0;0.0;0.0;0.0;;;;;
+20230203;HGBC32;gpschile;Transportes Ilzauspe;902;0.0;86401;808483;59;345;3.8;93.1;2.1;0.1;0.6;82.1;0.0;0.0;0.0;0.0;;;;;
+20230204;HGBC32;gpschile;Transportes Ilzauspe;870;0.0;86369;854099;59;603;3.9;93.5;1.8;0.0;0.5;84.2;0.0;0.0;0.0;0.0;;;;;
+20230205;HGBC32;gpschile;Transportes Ilzauspe;1018;0.0;86400;793537;59;200;3.4;94.1;1.7;0.0;0.4;81.8;0.0;0.0;0.0;0.0;;;;;
+20230206;HGBC32;gpschile;Transportes Ilzauspe;839;0.0;86415;667505;59;273;4.2;92.4;2.0;0.1;0.9;79.1;0.3;0.3;0.0;0.0;;;;;
+20230207;HGBC32;gpschile;Transportes Ilzauspe;782;0.0;86373;636974;58;327;4.2;92.1;2.0;0.2;0.7;81.6;0.0;0.0;0.0;0.0;;;;;
+20230208;HGBC32;gpschile;Transportes Ilzauspe;860;0.0;86409;703383;59;302;4.3;92.6;1.9;0.1;0.6;80.9;0.0;0.0;0.0;0.0;;;;;
+20230209;HGBC32;gpschile;Transportes Ilzauspe;160;0.0;9574;154426;60;51;0.6;99.3;0.0;0.0;0.0;71.9;0.0;0.0;0.0;0.0;;;;;
+20230201;HJPR80;gpschile;Transportes Ilzauspe;895;0.0;84796;782352;56;457;7.7;89.0;1.3;0.2;0.2;81.6;2.0;1.7;0.0;0.0;;;;;
+20230202;HJPR80;gpschile;Transportes Ilzauspe;851;0.0;86404;749708;56;553;7.9;88.1;1.0;0.0;1.1;81.6;1.4;1.1;0.7;0.7;;;;;
+20230203;HJPR80;gpschile;Transportes Ilzauspe;809;0.0;79083;739672;55;730;9.6;86.8;0.9;0.1;0.4;84.0;1.0;1.0;0.0;0.0;;;;;
+20230204;HJPR80;gpschile;Transportes Ilzauspe;587;0.0;93721;388181;58;445;3.7;93.0;1.0;0.3;1.0;75.5;0.0;0.0;0.0;0.0;;;;;
+20230205;HJPR80;gpschile;Transportes Ilzauspe;862;0.0;86373;772250;57;519;6.1;90.6;1.3;0.1;0.5;82.0;2.3;1.4;0.0;0.0;;;;;
+20230206;HJPR80;gpschile;Transportes Ilzauspe;895;0.0;86397;688400;56;273;7.8;89.0;0.8;0.1;0.7;78.5;0.7;0.7;0.0;0.0;;;;;
+20230207;HJPR80;gpschile;Transportes Ilzauspe;790;0.0;85196;581106;53;341;13.2;83.1;0.3;0.7;1.1;79.0;0.4;0.4;0.0;0.0;;;;;
+20230208;HJPR80;gpschile;Transportes Ilzauspe;34;0.0;83935;1106;60;2701;20.5;58.8;0.0;8.8;8.8;0.0;0.0;0.0;0.0;0.0;;;;;
+20230209;HJPR80;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;HJPR82;gpschile;Transportes Ilzauspe;927;0.0;86317;770108;57;497;7.3;89.2;1.0;0.6;0.4;75.9;1.8;0.6;0.0;0.0;;;;;
+20230202;HJPR82;gpschile;Transportes Ilzauspe;625;0.0;84905;420825;55;407;10.8;84.8;0.9;0.8;1.7;79.3;0.6;0.6;0.0;0.0;;;;;
+20230203;HJPR82;gpschile;Transportes Ilzauspe;814;0.0;87925;604330;57;600;7.0;90.9;0.2;0.2;0.9;67.9;0.0;0.0;0.0;0.0;;;;;
+20230204;HJPR82;gpschile;Transportes Ilzauspe;771;0.0;84765;605122;57;481;5.9;90.6;1.0;0.2;0.9;71.8;1.2;0.8;0.0;0.0;;;;;
+20230205;HJPR82;gpschile;Transportes Ilzauspe;875;0.0;85471;770856;57;616;6.8;90.2;1.6;0.1;0.8;78.2;2.7;1.5;0.5;0.0;;;;;
+20230206;HJPR82;gpschile;Transportes Ilzauspe;905;0.0;88939;749848;59;387;2.6;94.8;1.1;0.5;0.6;77.2;1.6;0.3;0.0;0.0;;;;;
+20230207;HJPR82;gpschile;Transportes Ilzauspe;975;0.0;86411;798666;58;676;4.8;93.4;0.5;0.1;0.5;73.2;1.5;0.6;0.0;0.0;;;;;
+20230208;HJPR82;gpschile;Transportes Ilzauspe;908;0.0;86413;782910;57;653;4.7;93.2;0.5;0.3;0.6;77.8;0.3;0.0;0.0;0.0;;;;;
+20230209;HJPR82;gpschile;Transportes Ilzauspe;166;0.0;13622;43712;44;160;25.9;71.0;0.6;0.0;1.8;9.8;0.0;0.0;0.0;0.0;;;;;
+20230201;HWBC26;gpschile;Transportes Ilzauspe;1792;0.0;86385;419609;20;91;98.9;0.6;0.0;0.0;0.0;1.1;0.0;0.0;0.0;0.0;;;;;
+20230202;HWBC26;gpschile;Transportes Ilzauspe;3333;0.0;86407;425362;19;28;99.3;0.4;0.0;0.0;0.0;0.6;0.0;0.0;0.0;0.0;;;;;
+20230203;HWBC26;gpschile;Transportes Ilzauspe;2454;0.0;86395;480919;19;50;99.5;0.3;0.0;0.0;0.0;0.6;0.0;0.0;0.0;0.0;;;;;
+20230204;HWBC26;gpschile;Transportes Ilzauspe;2864;0.0;75953;461922;20;30;99.4;0.3;0.1;0.0;0.0;1.0;0.0;0.0;0.0;0.0;;;;;
+20230205;HWBC26;gpschile;Transportes Ilzauspe;523;0.0;96857;64914;14;668;95.4;0.1;0.1;0.0;0.0;2.2;0.0;0.0;0.0;0.0;;;;;
+20230206;HWBC26;gpschile;Transportes Ilzauspe;3949;0.0;86388;909735;19;25;98.7;0.4;0.0;0.0;0.0;0.4;0.0;0.0;0.0;0.0;;;;;
+20230207;HWBC26;gpschile;Transportes Ilzauspe;3075;0.0;86406;845177;19;42;99.5;0.1;0.0;0.0;0.0;0.3;0.0;0.0;0.0;0.0;;;;;
+20230208;HWBC26;gpschile;Transportes Ilzauspe;2431;0.0;86402;694273;19;73;98.6;0.6;0.1;0.0;0.0;0.9;0.4;0.4;0.4;0.0;;;;;
+20230209;HWBC26;gpschile;Transportes Ilzauspe;1199;0.0;23840;184707;19;19;99.6;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230201;HWBC27;gpschile;Transportes Ilzauspe;3025;0.0;85565;35647;20;28;99.5;0.3;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230202;HWBC27;gpschile;Transportes Ilzauspe;2649;0.0;80019;172329;19;32;99.5;0.3;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230203;HWBC27;gpschile;Transportes Ilzauspe;2328;0.0;93604;43972;17;42;99.7;0.2;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230204;HWBC27;gpschile;Transportes Ilzauspe;2441;0.0;83626;201686;19;39;99.5;0.3;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230205;HWBC27;gpschile;Transportes Ilzauspe;2305;0.0;85183;201700;19;43;99.2;0.3;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230206;HWBC27;gpschile;Transportes Ilzauspe;2257;0.0;89768;175962;20;46;99.4;0.3;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230207;HWBC27;gpschile;Transportes Ilzauspe;1867;0.0;87013;35340;17;50;99.6;0.1;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230208;HWBC27;gpschile;Transportes Ilzauspe;2625;0.0;83996;208983;19;36;99.4;0.3;0.0;0.0;0.0;0.6;0.0;0.0;0.0;0.0;;;;;
+20230209;HWBC27;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;HWBC28;gpschile;Transportes Ilzauspe;3231;0;83658;0;0;27;93.0;1.2;0.5;0.0;0.0;0;0;0;0;0;;;;;
+20230202;HWBC28;gpschile;Transportes Ilzauspe;4370;0.0;89059;135929;19;21;96.6;0.5;0.2;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230203;HWBC28;gpschile;Transportes Ilzauspe;3514;0.0;86454;116700;18;27;94.1;1.4;0.3;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230204;HWBC28;gpschile;Transportes Ilzauspe;3122;0.0;77820;27360;18;26;93.7;1.1;0.3;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230205;HWBC28;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;HWBC28;gpschile;Transportes Ilzauspe;3860;4.6;181334;562967;18;74;95.1;1.8;0.4;0.0;0.0;0.5;0.0;0.0;0.0;0.0;;;;;
+20230207;HWBC28;gpschile;Transportes Ilzauspe;3036;0.0;86395;299722;18;34;98.5;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230208;HWBC28;gpschile;Transportes Ilzauspe;2902;0.0;78467;31450;19;27;98.6;0.1;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230209;HWBC28;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;HWBC29;gpschile;Transportes Ilzauspe;3308;0.7;86335;564914;17;36;98.7;0.1;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230202;HWBC29;gpschile;Transportes Ilzauspe;2738;0.0;86399;232451;18;37;99.3;0.1;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230203;HWBC29;gpschile;Transportes Ilzauspe;2629;0.0;86400;411916;17;54;98.8;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230204;HWBC29;gpschile;Transportes Ilzauspe;2724;0.0;66729;232647;20;27;99.8;0.1;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230205;HWBC29;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;HWBC29;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;HWBC29;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;HWBC29;gpschile;Transportes Ilzauspe;1599;1.3;365241;343124;20;647;99.4;0.3;0.1;0.0;0.0;2.1;1.3;1.3;1.3;0.0;;;;;
+20230209;HWBC29;gpschile;Transportes Ilzauspe;321;0.0;6360;117354;20;19;100.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230201;HWBC30;gpschile;Transportes Ilzauspe;1965;2.2;35617;299139;17;18;99.5;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230202;HWBC30;gpschile;Transportes Ilzauspe;1738;2.2;79616;304086;17;98;99.0;0.0;0.0;0.0;0.0;2.2;2.2;2.2;2.2;2.2;;;;;
+20230203;HWBC30;gpschile;Transportes Ilzauspe;1662;23.3;84941;377688;72;19;99.6;0.0;0.0;0.0;0.0;23.4;23.4;23.4;23.4;23.4;A2;B2;C;D;
+20230204;HWBC30;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230205;HWBC30;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;HWBC30;gpschile;Transportes Ilzauspe;1920;2.2;267648;300244;17;314;99.2;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230207;HWBC30;gpschile;Transportes Ilzauspe;2010;0.0;89498;308214;17;86;99.4;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230208;HWBC30;gpschile;Transportes Ilzauspe;2211;0.0;85615;311671;17;65;99.7;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230209;HWBC30;gpschile;Transportes Ilzauspe;366;99.7;41098;6860;0;112;99.4;0.0;0.0;0.0;0.0;100.0;100.0;100.0;100.0;100.0;;B1;C;;
+20230201;HWBC31;gpschile;Transportes Ilzauspe;2372;0.0;44140;296991;17;19;99.1;0.2;0.0;0.0;0.0;0.6;0.0;0.0;0.0;0.0;;;;;
+20230202;HWBC31;gpschile;Transportes Ilzauspe;2365;0.0;86410;296378;17;52;99.1;0.1;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230203;HWBC31;gpschile;Transportes Ilzauspe;2558;0.0;90813;296742;18;48;99.2;0.1;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230204;HWBC31;gpschile;Transportes Ilzauspe;244;0;4880;0;0;20;100.0;0.0;0.0;0.0;0.0;0;0;0;0;0;;;;;
+20230205;HWBC31;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;HWBC31;gpschile;Transportes Ilzauspe;2337;0.0;254322;296868;17;184;99.3;0.0;0.0;0.0;0.0;0.4;0.0;0.0;0.0;0.0;;;;;
+20230207;HWBC31;gpschile;Transportes Ilzauspe;1338;0.0;66491;47069;16;56;99.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230208;HWBC31;gpschile;Transportes Ilzauspe;3;0;86076;0;0;28692;66.6;0.0;0.0;0.0;0.0;0;0;0;0;0;;;;;
+20230209;HWBC31;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230201;HZRH19;gpschile;Transportes Ilzauspe;4499;1.6;86339;582083;18;19;99.3;0.1;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230202;HZRH19;gpschile;Transportes Ilzauspe;4520;0.7;86376;588402;18;19;99.5;0.0;0.0;0.0;0.0;0.1;0.0;0.0;0.0;0.0;;;;;
+20230203;HZRH19;gpschile;Transportes Ilzauspe;4529;0.8;86346;587978;18;19;99.4;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230204;HZRH19;gpschile;Transportes Ilzauspe;4344;0.0;86399;131106;20;19;99.9;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230205;HZRH19;gpschile;Transportes Ilzauspe;4059;0;81218;0;0;20;99.9;0.0;0.0;0.0;0.0;0;0;0;0;0;;;;;
+20230206;HZRH19;gpschile;Transportes Ilzauspe;4285;0.0;91582;100490;12;23;99.1;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230207;HZRH19;gpschile;Transportes Ilzauspe;4349;0.4;86380;593574;19;19;99.9;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230208;HZRH19;gpschile;Transportes Ilzauspe;4342;0.0;86399;653568;19;19;99.8;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230209;HZRH19;gpschile;Transportes Ilzauspe;463;0.0;9260;172026;20;20;100.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230201;HZRH20;gpschile;Transportes Ilzauspe;2182;0.0;86375;2380;19;40;98.6;0.1;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230202;HZRH20;gpschile;Transportes Ilzauspe;3147;0.7;86370;369307;18;31;99.2;0.1;0.0;0.0;0.0;0.7;0.0;0.0;0.0;0.0;;;;;
+20230203;HZRH20;gpschile;Transportes Ilzauspe;3773;0.8;86310;679840;18;28;98.8;0.1;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230204;HZRH20;gpschile;Transportes Ilzauspe;3503;1.1;86339;581855;18;31;98.8;0.1;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230205;HZRH20;gpschile;Transportes Ilzauspe;1282;0.0;86397;94;0;68;98.2;0.3;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230206;HZRH20;gpschile;Transportes Ilzauspe;2992;0.5;86362;575619;18;43;98.6;0.1;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230207;HZRH20;gpschile;Transportes Ilzauspe;4445;0.0;86388;809414;18;20;99.3;0.1;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230208;HZRH20;gpschile;Transportes Ilzauspe;4502;0.0;86405;866337;18;19;98.9;0.1;0.0;0.0;0.0;0.1;0.0;0.0;0.0;0.0;;;;;
+20230209;HZRH20;gpschile;Transportes Ilzauspe;469;0.0;9097;94880;19;18;99.5;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230201;JLHZ74;gpschile;Transportes Ilzauspe;1055;0.0;86323;751990;57;150;5.2;93.8;0.2;0.0;0.3;77.4;0.0;0.0;0.0;0.0;;;;;
+20230202;JLHZ74;gpschile;Transportes Ilzauspe;844;0.0;86428;661364;57;301;5.2;92.7;0.9;0.3;0.4;79.4;0.0;0.0;0.0;0.0;;;;;
+20230203;JLHZ74;gpschile;Transportes Ilzauspe;946;0.0;86355;768930;57;237;4.7;94.2;0.2;0.2;0.4;78.8;0.0;0.0;0.0;0.0;;;;;
+20230204;JLHZ74;gpschile;Transportes Ilzauspe;943;0.0;86419;751299;57;214;4.6;94.1;0.3;0.1;0.6;80.4;0.0;0.0;0.0;0.0;;;;;
+20230205;JLHZ74;gpschile;Transportes Ilzauspe;861;0.0;84655;674868;57;230;4.8;94.1;0.1;0.1;0.4;82.6;0.0;0.0;0.0;0.0;;;;;
+20230206;JLHZ74;gpschile;Transportes Ilzauspe;703;0.0;86674;425080;57;322;5.5;93.0;0.1;0.4;0.7;69.6;0.0;0.0;0.0;0.0;;;;;
+20230207;JLHZ74;gpschile;Transportes Ilzauspe;829;0.0;87850;751970;58;541;2.6;96.0;0.2;0.1;0.8;82.4;0.0;0.0;0.0;0.0;;;;;
+20230208;JLHZ74;gpschile;Transportes Ilzauspe;883;0.0;86405;784793;57;467;4.6;93.8;0.3;0.2;0.7;79.7;0.0;0.0;0.0;0.0;;;;;
+20230209;JLHZ74;gpschile;Transportes Ilzauspe;101;0.0;12226;33897;50;294;16.8;77.2;0.9;0.0;4.9;21.1;0.0;0.0;0.0;0.0;;;;;
+20230201;KFLW96;gpschile;Transportes Ilzauspe;5143;1.0;86368;385872;18;23;75.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230202;KFLW96;gpschile;Transportes Ilzauspe;2410;0.0;86397;42383;14;53;75.5;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230203;KFLW96;gpschile;Transportes Ilzauspe;3404;0.9;86385;379765;17;45;75.9;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230204;KFLW96;gpschile;Transportes Ilzauspe;3564;0.0;59725;139353;18;23;75.4;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;;;;;
+20230205;KFLW96;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230206;KFLW96;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230207;KFLW96;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230208;KFLW96;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
+20230209;KFLW96;gpschile;Transportes Ilzauspe;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;;E
